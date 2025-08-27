@@ -223,7 +223,7 @@ export default function HomePage() {
                 <span className="text-white font-bold text-xl">MI</span>
               </div>
               <span className="text-2xl font-bold text-white">
-                MOBILE<span className="text-amber-500">INNOVATION</span>
+                MOBILEppppppppppppppppppp<span className="text-amber-500">INNOVATION</span>
               </span>
             </a>
 
