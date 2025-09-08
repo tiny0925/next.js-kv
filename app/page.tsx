@@ -55,32 +55,32 @@ export default function HomePage() {
   const testimonials = [
     {
       name: "Maria Gonzalez",
-      role: "GM, Dubai Marina Hotel",
+      role: "GM in Fintech industry",
       image: "/professional-woman-diverse.png",
       rating: 5,
-      text: "MOBILE INNOVATION transformed our digital presence. Their Eid campaign resulted in a 189% increase in bookings — we now rank #1 for 'Dubai beach hotels' on Google.",
+      text: "MOBILE INNOVATION transformed our digital presence. Their campaign resulted in a 189% increase .",
     },
     {
       name: "Ahmed Al Marri",
-      role: "Owner, Dubai Mall Boutique",
+      role: "Private company owner.",
       image: "/middle-eastern-businessman.png",
       rating: 5,
       text: "The team understands Dubai's luxury market perfectly. Their influencer campaign drove 240% more foot traffic during Ramadan — we've extended our contract for another year.",
     },
     {
       name: "Elena Petrova",
-      role: "Marketing Dir, Downtown Dubai Villas",
+      role: "Marketing Director",
       image: "/professional-woman-executive.png",
       rating: 4.5,
-      text: "We needed high-quality leads for our luxury villas. MOBILE INNOVATION's LinkedIn strategy delivered 120+ qualified leads — 30% of which converted to sales.",
+      text: "We needed high-quality leads. MOBILE INNOVATION's LinkedIn strategy delivered 12000+ qualified leads — 30% of which converted to sales.",
     },
-    {
+    {/*{
       name: "Raj Patel",
       role: "Owner, JBR Seafood Restaurant",
       image: "/restaurant-owner.png",
       rating: 5,
       text: "TikTok was new to us, but MOBILE INNOVATION made it work. Their videos of our beachfront dining went viral — delivery orders increased by 300% in just 2 months.",
-    },
+    },*/} 
   ]
 
   const services = [
@@ -88,17 +88,17 @@ export default function HomePage() {
       icon: "📈",
       title: "Data-Driven Marketing",
       description:
-        "Leverage consumer data to target high-intent audiences and maximize ROI — tailored for Dubai's diverse market.",
-      features: ["Audience Segmentation (GCC Focus)", "Real-Time Campaign Optimization", "ROI Tracking & Reporting"],
+        "Tailored for Regional solutions",
+      features: ["Audience Segmentation", "Real-Time Campaign Optimization", "ROI Tracking & Reporting"],
     },
     {
       icon: "📢",
       title: "Social Media Advertising",
       description:
-        "Engage Dubai's audience on Instagram, TikTok, and LinkedIn — with content aligned to local culture.",
+        "Engage regional audience on Google, Instagram, TikTok, Facebook and LinkedIn - with content aligned to local culture.",
       features: [
-        "Culture-Aligned Content (Ramadan, Eid)",
-        "Influencer Collaboration (Dubai Creators)",
+        "Culture-Aligned Content",
+        "Influencer Collaboration",
         "Paid Campaign Management",
       ],
     },
@@ -106,37 +106,37 @@ export default function HomePage() {
       icon: "🔍",
       title: "SEO & Content Marketing",
       description:
-        "Rank higher on Google for Arabic & English keywords — with content that resonates with MENA audiences.",
+        "Rank higher on Google - with content that resonates with different audiences",
       features: [
-        "Bilingual SEO (Arabic/English)",
-        "Local SEO (Dubai Business Listings)",
+        "Bilingual SEO",
+        "Local SEO",
         "Industry-Specific Content Creation",
       ],
     },
     {
       icon: "🎨",
       title: "Digital Creative",
-      description: "Design ads, videos, and landing pages that reflect Dubai's luxury aesthetic — and drive clicks.",
+      description: "Design ads, videos, and landing pages that reflect pioneer - and drive clicks",
       features: [
-        "Luxury Visual Design (Dubai Style)",
+        "Luxury Visual Design",
         "Video Production (Local Landmarks)",
         "Conversion-Optimized Landing Pages",
       ],
     },
     {
       icon: "🗺️",
-      title: "Dubai Market Strategy",
-      description: "Navigate Dubai's unique business landscape — from cultural norms to regulatory requirements.",
+      title: "Market Strategy",
+      description: "Navigate Regional unique business landscape - from cultural norms to regulatory requirements.",
       features: [
         "Localization (Language, Culture)",
-        "Holiday Campaigns (Eid, National Day)",
-        "Competitor Analysis (Dubai Brands)",
+        "Holiday Campaigns ",
+        "Competitor Analysis",
       ],
     },
     {
       icon: "📊",
       title: "Analytics & Insights",
-      description: "Turn data into action with custom reports — focused on Dubai's key performance metrics.",
+      description: "Turn data into action with custom reports — focused on key performance metrics.",
       features: ["Custom Data Dashboards", "Performance Forecasting", "Actionable Recommendations"],
     },
   ]
@@ -223,7 +223,7 @@ export default function HomePage() {
                 <span className="text-white font-bold text-xl">MI</span>
               </div>
               <span className="text-2xl font-bold text-white">
-                MOBILEppppppppppppppppppp<span className="text-amber-500">INNOVATION</span>
+                MOBILE<span className="text-amber-500">INNOVATION</span>
               </span>
             </a>
 
@@ -319,8 +319,7 @@ export default function HomePage() {
                 That Convert
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-xl mx-auto lg:mx-0">
-                Dubai-based digital marketing & online advertising agency — combining data-driven strategies with
-                creative excellence to grow your brand in the Middle East & beyond.
+                Digital marketing & Online advertising agency - Combining data-driven strategies with creative excellence to grow your brand globally.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
                 <Button className="bg-amber-500 hover:bg-amber-400 text-slate-600 font-semibold px-8 py-4 rounded-full transition-all transform hover:scale-105">
@@ -335,7 +334,7 @@ export default function HomePage() {
               </div>
 
               {/* Client Logos */}
-              <div className="mt-16 hidden md:block">
+              {/*<div className="mt-16 hidden md:block">
                 <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">Trusted by Brands in Dubai</p>
                 <div className="flex flex-wrap items-center gap-8 opacity-70">
                   <img
@@ -359,7 +358,7 @@ export default function HomePage() {
                     className="h-8 grayscale hover:grayscale-0 transition-all"
                   />
                 </div>
-              </div>
+              </div>*/}
             </div>
 
             {/* Visual Content */}
@@ -373,8 +372,8 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-800/80 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6">
                   <div className="flex items-center space-x-2 mb-2">
-                    <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                    <span className="text-white text-sm">Dubai Hotel Campaign: +189% Bookings</span>
+                       {/*<div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>*/}
+                     {/*<span className="text-white text-sm">Dubai Hotel Campaign: +189% Bookings</span>*/}
                   </div>
                 </div>
               </div>
@@ -409,7 +408,7 @@ export default function HomePage() {
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
 
               {/* Location Badge */}
-              <Card className="absolute top-1/4 -left-8 max-w-xs z-20">
+                 {/*<Card className="absolute top-1/4 -left-8 max-w-xs z-20">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">
                     <div className="w-10 h-10 rounded-full bg-slate-600/10 flex items-center justify-center mr-3">
@@ -421,31 +420,27 @@ export default function HomePage() {
                     Strategically located at Meydan Grandstand — the heart of Dubai's business district.
                   </p>
                 </CardContent>
-              </Card>
+              </Card>*/}
             </div>
 
             {/* Content */}
             <div className="w-full lg:w-1/2">
               <span className="text-amber-500 font-semibold uppercase tracking-wider">Our Story</span>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">
-                Rooted in Dubai, Built for Global Brands
+                Rooted in Global Expertise, Built for Boundaryless Growth
               </h2>
               <p className="text-gray-600 text-lg mb-6">
-                MOBILE INNOVATION was founded to bridge the gap between global digital marketing best practices and
-                Middle Eastern market nuances. Our team combines local insights (from Ramadan campaigns to GCC consumer
-                behavior) with cutting-edge tech to deliver results that matter.
+                MOBILE INNOVATION was founded to bridge global digital marketing excellence with hyper-local market insights—wherever your audience resides. Our team combines deep understanding of cultural nuances, regional consumer behaviors, and global best practices to deliver strategies that transcend borders. 
               </p>
               <p className="text-gray-600 text-lg mb-8">
-                From our office in Meydan Grandstand, we've helped 50+ brands — from Dubai-based startups to
-                international corporations — grow their digital presence, drive conversions, and build lasting customer
-                relationships.
+                With a globally distributed team and a footprint spanning diverse markets, we've partnered with 50+ brands—from emerging startups to multinational corporations—to amplify their digital presence, drive meaningful conversions, and foster enduring customer connections worldwide.
               </p>
 
               {/* Core Advantages */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 {[
-                  { icon: "💡", title: "Local Insights", desc: "Deep understanding of Dubai & GCC consumer behavior." },
-                  { icon: "👥", title: "Expert Team", desc: "10+ years of digital marketing experience in MENA." },
+                  { icon: "💡", title: "Local Insights", desc: "Deep understanding of local & regioanl consumer behavior." },
+                  { icon: "👥", title: "Expert Team", desc: "Localized team with more than 5+ years experience in digital marketing." },
                   { icon: "📈", title: "Results Focused", desc: "ROI-driven strategies with clear, measurable goals." },
                   { icon: "🤝", title: "Client Partnerships", desc: "Transparent collaboration, no hidden fees." },
                 ].map((item, index) => (
@@ -522,14 +517,13 @@ export default function HomePage() {
             <span className="text-amber-500 font-semibold uppercase tracking-wider">OUR PORTFOLIO</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects</h2>
             <p className="text-gray-600 text-lg">
-              Explore our latest work and see how we've helped businesses achieve their digital marketing goals in
-              Dubai.
+              Explore our latest work and see how we’ve helped businesses achieve their marketing and ads goals.
             </p>
           </div>
 
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {["All Projects", "Hotels", "Retail", "Real Estate", "F&B"].map((filter, index) => (
+            {[].map((filter, index) => (
               <Button
                 key={index}
                 variant={index === 0 ? "default" : "secondary"}
@@ -594,16 +588,16 @@ export default function HomePage() {
               Driving Measurable Results
             </h2>
             <p className="text-gray-300 text-lg">
-              We believe in data-driven success. Here's how we've helped our clients grow in Dubai.
+              We believe in data-driven success. Here’s how we’ve helped our clients growing.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {[
-              { number: 189, suffix: "%", label: "Average ROI Increase" },
-              { number: 50, suffix: "+", label: "Dubai Clients Served" },
-              { number: 120, suffix: "+", label: "Successful Campaigns" },
+              { number: 30, suffix: "%", label: "Average ROI Increase" },
+              { number: 12, suffix: "+", label: "Clients Served" },
+              { number: 8, suffix: "+", label: "Successful Campaigns" },
               { number: 98, suffix: "%", label: "Client Satisfaction Rate" },
             ].map((stat, index) => (
               <Card
@@ -623,7 +617,7 @@ export default function HomePage() {
           </div>
 
           {/* Performance Chart */}
-          <Card className="bg-white/5 backdrop-blur-md p-8 lg:p-12">
+          {/* <Card className="bg-white/5 backdrop-blur-md p-8 lg:p-12">
             <CardContent className="p-0">
               <div className="flex flex-col lg:flex-row gap-12">
                 <div className="w-full lg:w-1/2">
@@ -680,7 +674,7 @@ export default function HomePage() {
                 </div>
               </div>
             </CardContent>
-          </Card>
+          </Card>*/}
         </div>
       </section>
 
@@ -693,7 +687,7 @@ export default function HomePage() {
               What Our Clients Say
             </h2>
             <p className="text-gray-600 text-lg">
-              Don't just take our word for it. Hear from some of our satisfied Dubai clients.
+              Don't just take our word for it. Hear from some of our satisfied clients.
             </p>
           </div>
 
@@ -702,7 +696,7 @@ export default function HomePage() {
             <div className="overflow-hidden">
               <div
                 className="flex transition-transform duration-500"
-                style={{ transform: `translateX(-${currentTestimonial * (100 / 3)}%)` }}
+              
               >
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
@@ -732,7 +726,7 @@ export default function HomePage() {
             </div>
 
             {/* Navigation Buttons */}
-            <button
+            {/* <button
               onClick={() => setCurrentTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length)}
               className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-1/2 bg-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center text-slate-600 hover:text-amber-500 transition-colors z-10 md:-left-6"
             >
@@ -743,10 +737,10 @@ export default function HomePage() {
               className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/2 bg-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center text-slate-600 hover:text-amber-500 transition-colors z-10 md:-right-6"
             >
               →
-            </button>
+            </button>*/}
 
             {/* Dots Indicator */}
-            <div className="flex justify-center mt-8 space-x-2">
+            {/*<div className="flex justify-center mt-8 space-x-2">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
@@ -756,7 +750,7 @@ export default function HomePage() {
                   }`}
                 />
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -840,8 +834,7 @@ export default function HomePage() {
                 Ready to Transform Your Digital Presence?
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Let's discuss how we can help you achieve your business goals in Dubai. Fill out the form and our team
-                will get back to you within 24 hours.
+               Let's discuss how we can help you achieve your business goals globally. Fill out the form and our team will get back to you within 24 hours.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -882,7 +875,7 @@ export default function HomePage() {
 
             {/* Contact Form */}
             <div className="w-full lg:w-1/2">
-              <Card className="p-8 shadow-xl">
+              {/* <Card className="p-8 shadow-xl">
                 <CardContent className="p-0">
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -950,7 +943,7 @@ export default function HomePage() {
                     </Button>
                   </form>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </div>
