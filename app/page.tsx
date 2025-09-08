@@ -513,7 +513,7 @@ export default function HomePage() {
       {/* Portfolio Section */}
       <section id="work" className="py-24 bg-stone-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-4xl mx-auto mb-16">
             <span className="text-amber-500 font-semibold uppercase tracking-wider">OUR PORTFOLIO</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects</h2>
             <p className="text-gray-600 text-lg">
@@ -596,9 +596,9 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {[
               { number: 30, suffix: "%", label: "Average ROI Increase" },
-              { number: 12, suffix: "+", label: "Clients Served" },
-              { number: 8, suffix: "+", label: "Successful Campaigns" },
-              { number: 98, suffix: "%", label: "Client Satisfaction Rate" },
+              { number: 12, suffix: "", label: "Clients Served" },
+              { number: 8, suffix: "", label: "Successful Campaigns" },
+              { number: 98, suffix: "", label: "Client Satisfaction Rate" },
             ].map((stat, index) => (
               <Card
                 key={index}
@@ -827,8 +827,8 @@ export default function HomePage() {
         ></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col lg:flex-row gap-12">
-            {/* Contact Info */}
-            <div className="w-full lg:w-1/2">
+            {/* Contact Info lg:w-1/2*/}
+            <div className="w-full ">
               <span className="text-amber-500 font-semibold uppercase tracking-wider">GET IN TOUCH</span>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-2 mb-6">
                 Ready to Transform Your Digital Presence?
@@ -950,7 +950,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12">
+      {/*<footer className="bg-slate-900 text-white py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
@@ -1003,7 +1003,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer>*/}
     </div>
   )
 }
