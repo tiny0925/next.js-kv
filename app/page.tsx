@@ -144,14 +144,14 @@ export default function HomePage() {
   const projects = [
     {
       image: "/luxury-hotel-dubai-marina.png",
-      category: "Hotels",
-      title: "Dubai Marina Hotel",
-      description: "Increased bookings by 189% via social media ads and SEO — targeting tourists to Dubai.",
+      category: "Hotels65656656566565656655665",
+      title: "Dubai Marina Hotel6556656565656565",
+      description: "Increased bookings by 189% via social media ads and SEO — targeting tourists to Dubai.66565656565656565656565",
     },
     {
       image: "/luxury-retail-dubai-mall.png",
       category: "Retail",
-      title: "Dubai Mall Boutique",
+      title: "Dubai Mall Boutique888888888888888888",
       description: "Drove 240% foot traffic with Eid campaign — combining influencer marketing and local SEO.",
     },
     {
@@ -308,7 +308,7 @@ export default function HomePage() {
         ></div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-20">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center gap-6">
             {/* Text Content */}
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6">
@@ -362,10 +362,10 @@ export default function HomePage() {
             </div>
 
             {/* Visual Content */}
-            <div className="w-full lg:w-1/2 relative">
+            <div className="w-full lg:w-2/3 relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-all duration-500">
                 <img
-                  src="/digital-marketing-dashboard-dubai-data.png"
+                  src="/banner-image.jpg"
                   alt="Digital marketing dashboard with Dubai data"
                   className="w-full h-auto"
                 />
@@ -515,7 +515,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto mb-16">
             <span className="text-amber-500 font-semibold uppercase tracking-wider">OUR PORTFOLIO</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects345345435345243234234</h2>
             <p className="text-gray-600 text-lg">
               Explore our latest work and see how we’ve helped businesses achieve their marketing and ads goals.
             </p>
@@ -557,9 +557,9 @@ export default function HomePage() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-slate-600 group-hover:text-amber-500 transition-colors">
-                  {project.title}
+                  {project.title}23423423442342
                 </h3>
-                <p className="text-gray-600 mt-2">{project.description}</p>
+                <p className="text-gray-600 mt-2">{project.description}2342424242423</p>
               </div>
             ))}
           </div>
@@ -598,7 +598,7 @@ export default function HomePage() {
               { number: 30, suffix: "%", label: "Average ROI Increase" },
               { number: 12, suffix: "", label: "Clients Served" },
               { number: 8, suffix: "", label: "Successful Campaigns" },
-              { number: 98, suffix: "", label: "Client Satisfaction Rate" },
+              { number: 98, suffix: "%", label: "Client Satisfaction Rate" },
             ].map((stat, index) => (
               <Card
                 key={index}
