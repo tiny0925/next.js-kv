@@ -360,7 +360,7 @@ export default function HomePage() {
           </div>
 
           {/* Scroll Indicator */}
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce" style={{zIndex:'1000'}}>
             <a href="#services" className="flex flex-col items-center">
               <span className="text-sm mb-2">Scroll Down</span>
               <span>↓</span>
