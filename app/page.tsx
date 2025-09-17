@@ -74,21 +74,22 @@ export default function HomePage() {
       rating: 4.5,
       text: "We needed high-quality leads. MOBILE INNOVATION's LinkedIn strategy delivered 12000+ qualified leads — 30% of which converted to sales.",
     },
-    {/*{
+    {
+      /*{
       name: "Raj Patel",
       role: "Owner, JBR Seafood Restaurant",
       image: "/restaurant-owner.png",
       rating: 5,
       text: "TikTok was new to us, but MOBILE INNOVATION made it work. Their videos of our beachfront dining went viral — delivery orders increased by 300% in just 2 months.",
-    },*/} 
+    },*/
+    },
   ]
 
   const services = [
     {
       icon: "📈",
       title: "Data-Driven Marketing",
-      description:
-        "Tailored for Regional solutions",
+      description: "Tailored for Regional solutions",
       features: ["Audience Segmentation", "Real-Time Campaign Optimization", "ROI Tracking & Reporting"],
     },
     {
@@ -96,42 +97,25 @@ export default function HomePage() {
       title: "Social Media Advertising",
       description:
         "Engage regional audience on Google, Instagram, TikTok, Facebook and LinkedIn - with content aligned to local culture.",
-      features: [
-        "Culture-Aligned Content",
-        "Influencer Collaboration",
-        "Paid Campaign Management",
-      ],
+      features: ["Culture-Aligned Content", "Influencer Collaboration", "Paid Campaign Management"],
     },
     {
       icon: "🔍",
       title: "SEO & Content Marketing",
-      description:
-        "Rank higher on Google - with content that resonates with different audiences",
-      features: [
-        "Bilingual SEO",
-        "Local SEO",
-        "Industry-Specific Content Creation",
-      ],
+      description: "Rank higher on Google - with content that resonates with different audiences",
+      features: ["Bilingual SEO", "Local SEO", "Industry-Specific Content Creation"],
     },
     {
       icon: "🎨",
       title: "Digital Creative",
       description: "Design ads, videos, and landing pages that reflect pioneer - and drive clicks",
-      features: [
-        "Luxury Visual Design",
-        "Video Production (Local Landmarks)",
-        "Conversion-Optimized Landing Pages",
-      ],
+      features: ["Luxury Visual Design", "Video Production (Local Landmarks)", "Conversion-Optimized Landing Pages"],
     },
     {
       icon: "🗺️",
       title: "Market Strategy",
       description: "Navigate Regional unique business landscape - from cultural norms to regulatory requirements.",
-      features: [
-        "Localization (Language, Culture)",
-        "Holiday Campaigns ",
-        "Competitor Analysis",
-      ],
+      features: ["Localization (Language, Culture)", "Holiday Campaigns ", "Competitor Analysis"],
     },
     {
       icon: "📊",
@@ -144,39 +128,33 @@ export default function HomePage() {
   const projects = [
     {
       image: "/luxury-hotel-dubai-marina.png",
-      category: "Hotels65656656566565656655665",
-      title: "Dubai Marina Hotel6556656565656565",
-      description: "Increased bookings by 189% via social media ads and SEO — targeting tourists to Dubai.66565656565656565656565",
+      category: "Hotels",
+      title: "Hotel Business",
+      description: "Increased bookings by 189% via social media ads and SEO — targeting tourists.",
     },
     {
       image: "/luxury-retail-dubai-mall.png",
       category: "Retail",
-      title: "Dubai Mall Boutique888888888888888888",
+      title: "Mall Business",
       description: "Drove 240% foot traffic with Eid campaign — combining influencer marketing and local SEO.",
     },
     {
       image: "/dubai-real-estate-downtown.png",
       category: "Real Estate",
-      title: "Downtown Dubai Villas",
+      title: "Downtown Villas",
       description: "Generated 120+ leads via targeted LinkedIn ads — focusing on expat professionals in Dubai.",
     },
     {
       image: "/dubai-restaurant-seafood.png",
       category: "F&B",
-      title: "JBR Seafood Restaurant",
+      title: "Restaurant Business",
       description: "Increased delivery orders by 300% with TikTok ads — showcasing Dubai beachfront dining.",
     },
     {
       image: "/dubai-spa-palm-jumeirah.png",
       category: "Wellness",
-      title: "Palm Jumeirah Spa",
-      description: "Boosted bookings by 150% via Instagram Reels — targeting female expats in Dubai.",
-    },
-    {
-      image: "/dubai-fashion-ecommerce.png",
-      category: "E-commerce",
-      title: "Dubai Fashion E-store",
-      description: "Scaled online sales by 450% with Google Ads — optimized for Dubai's fast shipping expectations.",
+      title: "Fintech APP Business",
+      description: "Boosted 200% increasing of app downloads.",
     },
   ]
 
@@ -319,7 +297,8 @@ export default function HomePage() {
                 That Convert
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-xl mx-auto lg:mx-0">
-                Digital marketing & Online advertising agency - Combining data-driven strategies with creative excellence to grow your brand globally.
+                Digital marketing & Online advertising agency - Combining data-driven strategies with creative
+                excellence to grow your brand globally.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
                 <Button className="bg-amber-500 hover:bg-amber-400 text-slate-600 font-semibold px-8 py-4 rounded-full transition-all transform hover:scale-105">
@@ -372,8 +351,8 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-800/80 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6">
                   <div className="flex items-center space-x-2 mb-2">
-                       {/*<div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>*/}
-                     {/*<span className="text-white text-sm">Dubai Hotel Campaign: +189% Bookings</span>*/}
+                    {/*<div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>*/}
+                    {/*<span className="text-white text-sm">Dubai Hotel Campaign: +189% Bookings</span>*/}
                   </div>
                 </div>
               </div>
@@ -408,7 +387,7 @@ export default function HomePage() {
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
 
               {/* Location Badge */}
-                 {/*<Card className="absolute top-1/4 -left-8 max-w-xs z-20">
+              {/*<Card className="absolute top-1/4 -left-8 max-w-xs z-20">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">
                     <div className="w-10 h-10 rounded-full bg-slate-600/10 flex items-center justify-center mr-3">
@@ -430,17 +409,29 @@ export default function HomePage() {
                 Rooted in Global Expertise, Built for Boundaryless Growth
               </h2>
               <p className="text-gray-600 text-lg mb-6">
-                MOBILE INNOVATION was founded to bridge global digital marketing excellence with hyper-local market insights—wherever your audience resides. Our team combines deep understanding of cultural nuances, regional consumer behaviors, and global best practices to deliver strategies that transcend borders. 
+                MOBILE INNOVATION was founded to bridge global digital marketing excellence with hyper-local market
+                insights—wherever your audience resides. Our team combines deep understanding of cultural nuances,
+                regional consumer behaviors, and global best practices to deliver strategies that transcend borders.
               </p>
               <p className="text-gray-600 text-lg mb-8">
-                With a globally distributed team and a footprint spanning diverse markets, we've partnered with 50+ brands—from emerging startups to multinational corporations—to amplify their digital presence, drive meaningful conversions, and foster enduring customer connections worldwide.
+                With a globally distributed team and a footprint spanning diverse markets, we've partnered with 50+
+                brands—from emerging startups to multinational corporations—to amplify their digital presence, drive
+                meaningful conversions, and foster enduring customer connections worldwide.
               </p>
 
               {/* Core Advantages */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 {[
-                  { icon: "💡", title: "Local Insights", desc: "Deep understanding of local & regioanl consumer behavior." },
-                  { icon: "👥", title: "Expert Team", desc: "Localized team with more than 5+ years experience in digital marketing." },
+                  {
+                    icon: "💡",
+                    title: "Local Insights",
+                    desc: "Deep understanding of local & regioanl consumer behavior.",
+                  },
+                  {
+                    icon: "👥",
+                    title: "Expert Team",
+                    desc: "Localized team with more than 5+ years experience in digital marketing.",
+                  },
                   { icon: "📈", title: "Results Focused", desc: "ROI-driven strategies with clear, measurable goals." },
                   { icon: "🤝", title: "Client Partnerships", desc: "Transparent collaboration, no hidden fees." },
                 ].map((item, index) => (
@@ -515,7 +506,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto mb-16">
             <span className="text-amber-500 font-semibold uppercase tracking-wider">OUR PORTFOLIO</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects345345435345243234234</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-600 mt-2 mb-6">Recent Projects</h2>
             <p className="text-gray-600 text-lg">
               Explore our latest work and see how we’ve helped businesses achieve their marketing and ads goals.
             </p>
@@ -557,11 +548,20 @@ export default function HomePage() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-slate-600 group-hover:text-amber-500 transition-colors">
-                  {project.title}23423423442342
+                  {project.title}
                 </h3>
-                <p className="text-gray-600 mt-2">{project.description}2342424242423</p>
+                <p className="text-gray-600 mt-2">{project.description}</p>
               </div>
             ))}
+
+            <div key="6" className="group">
+              <div
+                className="text-center text-xl font-bold text-slate-600 group-hover:text-amber-500 transition-colors"
+                style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "70%" }}
+              >
+                Exploring more....
+              </div>
+            </div>
           </div>
 
           <div className="text-center mt-12">
@@ -694,10 +694,7 @@ export default function HomePage() {
           {/* Testimonial Slider */}
           <div className="relative">
             <div className="overflow-hidden">
-              <div
-                className="flex transition-transform duration-500"
-              
-              >
+              <div className="flex transition-transform duration-500">
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
                     <Card className="p-8 shadow-lg h-full">
@@ -834,7 +831,8 @@ export default function HomePage() {
                 Ready to Transform Your Digital Presence?
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-               Let's discuss how we can help you achieve your business goals globally. Fill out the form and our team will get back to you within 24 hours.
+                Let's discuss how we can help you achieve your business goals globally. Fill out the form and our team
+                will get back to you within 24 hours.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -861,15 +859,78 @@ export default function HomePage() {
 
               {/* Social Media */}
               <div className="flex space-x-4">
-                {["💼", "📷", "🐦", "💬"].map((icon, index) => (
-                  <a
-                    key={index}
-                    href="#"
-                    className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
-                  >
-                    {icon}
-                  </a>
-                ))}
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.689-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.057-1.69-.073-4.849-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-slate-600 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.072-4.358-.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.057-1.69-.073-4.849-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </a>
               </div>
             </div>
 
