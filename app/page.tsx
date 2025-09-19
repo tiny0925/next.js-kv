@@ -841,7 +841,6 @@ export default function HomePage() {
                     desc: "Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E.",
                   },
                   { icon: "✉️", title: "Email Us", desc: "mobile.innovation@inboxlnk.com" },
-                  { icon: "📞", title: "Call Us", desc: "+971 4 555 6789" },
                 ].map((contact, index) => (
                   <div key={index} className="flex items-start">
                     <div className="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mr-4 mt-1 flex-shrink-0">
